@@ -1,0 +1,30 @@
+1. Total sales actual , total sales target 
+2. variance , variance%(var/target)
+3. YTD Sales values , YOY growth , MTD
+4. Target reached - month count 
+
+-------------------------------------------------------------------------------------
+Finance KPI Dataset
+-------------------------------------------------------------------------------------
+Pre-processing 
+1. Promoted first row as header then unpivotted two tables -> Target & Actuals 
+2. Made a calendar column & extracted month, year, month name
+3. Connected the tables Acutals and Targets via Calendar & dimpeople tables (Avoided Actuals & Targets Many to Many relation)
+
+
+Insights
+
+1. Sales Targets were almost acheived at 98% and missed with only 2% of sales revenue
+2. Saw a slight growth of 0.43% in YoY revenue generation.
+3. Delish missed the sales target by 1%, Juices missed by 3% and Tempo missed the targets by 5% 
+4. Yummies achieved the targets as 3 agents were in Top 5 revenue generators 
+5. Bottom 5 agents list has been provided on the dashboard
+6. Overall we have acheived the targets only for 2 months - March 2023 & July 2023
+7. Gunar cockshoot was the top performer in the overall team 
+
+Suggestions 
+* The 2% shortfall in target can be acheived if we concentrate on bottom 5 agents by giving proper feedback and support
+* While YoY revenue saw a slight growth, but its still on lower part if considered indusrty standard. We can work on training bottom performer and introduce the perks and incentives to agents who acheived targets
+* Delish, Juices and Tempo teams to be held accountable for the agents who failed to meet the targets and arrange proper traning and other metrices as per SOP
+* Monthy target perofmance is poor. To imporve, please manage daily produtivity and targets
+* Gunar cockshoot to be awarded for the acheivement and will set example for other agents with +ve motivation.
